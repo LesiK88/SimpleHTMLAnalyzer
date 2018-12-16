@@ -3,7 +3,7 @@ Simple application that searches for the target element in a slightly changed ht
 
 Uses the fllowing algorithm:
 on diff document,
--selects elements with the same tag name
+- selects elements with the same tag name
 - among the selected elements, chooses elements with the best matching set of available attributes 
 (so far the algorithm doesn't compare the values of attributes, it pays attention only to keys. This is because 
 the sample documents suggest the values of the attributes can differ significantly from the original ones, 
