@@ -10,3 +10,5 @@ the sample documents suggest the values of the attributes can differ significant
 hence, some more clever analysis is needed)
 - among elements selected on the previous step the algorithm then chooses closest elements to target 
 based on Levenshtein distance between XPaths. The latter is the resulting set.
+
+Provide the app the following arguments: <Path to html with target> <Path to diff html> <target element id>
